@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #171a21;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+.heartContainer {
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.heart {
+    color: #ccc;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.heart:hover {
+    color: #ff6b6b;
+    transform: scale(1.2);
+}
+
+.favorited {
+    color: #ff6b6b;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.favorited:hover {
+    transform: scale(1.2);
+}
